@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@200&family=Roboto:wght@700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+nav #slider {
+  position: relative;
+}
+nav #slider .swiper {
+  width: 100%;
+  height: 100%;
+}
+nav #slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav #slider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+nav #slider img {
+  width: 100%;
+}
+nav #main_logo {
+  position: absolute;
+  top: 35px;
+  z-index: 1;
+  margin-left: 100px;
+  cursor: pointer;
+}
+nav #main-link {
+  position: absolute;
+  top: 35px;
+  z-index: 1;
+  width: 50%;
+  cursor: pointer;
+  opacity: 0.7;
+  font-size: 1.2rem;
+}
+nav #main-link ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8px 0;
+}
+nav #main-link ul li:hover {
+  color: #ff4136;
+}
+@media screen and (max-widht: 768px) {
+  nav #main-link #main-link ul a, nav #main-link #main-link li a {
+    display: none;
+  }
+}
+nav #sign_up {
+  position: absolute;
+  top: 35px;
+  z-index: 1;
+  width: 15%;
+  height: 50px;
+  padding: 8px 0;
+}
+nav #sign_up i {
+  font-size: 22px;
+  padding: 0 10px;
+  color: #000;
+}
+nav #sign_up i:hover {
+  color: #ff4136;
+}
+nav #sign_up div {
+  display: flex;
+}
+nav #sign_up div .cars {
+  position: relative;
+}
+nav #sign_up .number {
+  position: absolute;
+  left: 100px;
+  top: -5px;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  background-color: #ff4136;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav #text {
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  width: 50%;
+}
+nav #text h1 {
+  text-align: center;
+  font-weight: 900;
+  color: #000;
+  font-size: 55px;
+  font-family: "Poppins", sans-serif;
+}
+nav #text h1 span {
+  color: #ff4136;
+}
+nav #text p {
+  text-align: center;
+  font-size: 30px;
+  padding: 15px 0;
+  font-weight: 500;
+}
+@media screen and (min-widht: 250px) and (max-widht: 400px) {
+  nav #text #text {
+    display: none;
+  }
+}
+
+header #menu {
+  display: flex;
+  padding: 50px 24px;
+  width: 100%;
+}
+header #menu:hover {
+  cursor: pointer;
+}
+header #menu span {
+  color: #ff4136;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+header #menu p {
+  padding: 0 25px;
+  font-size: 24px;
+  font-weight: 500;
+}
+header #menu p:hover {
+  color: #ff4136;
+}
+@media screen and (min-widht: 250px) and (max-widht: 400px) {
+  header #menu #menu {
+    opacity: 0;
+  }
+}
+
+main section #clock {
+  position: relative;
+}
+main section #clock #photo img {
+  width: 100%;
+}
+main section #clock #photo div p {
+  color: rgb(31, 30, 30);
+  font-weight: 600;
+  font-size: 24px;
+}
+main section #clock #photo div p:hover {
+  color: #ff4136;
+}
+main section #clock #photo div span {
+  color: #ff4136;
+  font-weight: 600;
+  font-size: 24px;
+}
+main section #clock #photo div span strike {
+  color: gray;
+  opacity: 5;
+}
+main section #clock #photo:hover .photo_hover {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section #clock .photo_hover {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  z-index: 1;
+  font-size: 25px;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(196, 195, 195);
+  padding: 5px 7px;
+  gap: 15px;
+  display: none;
+}
+main section #clock .photo_hover i {
+  gap: 55px;
+  font-size: 24px;
+}
+main section #clock .photo_hover i:hover {
+  color: #ff4136;
+}
+main section #clock .photo_hover i:nth-child(1) {
+  border-right: 1px solid black;
+}
+main section #clock #photo_hover_heart {
+  position: absolute;
+  right: 20px;
+  bottom: 15%;
+}
+main section #clock #photo_hover_heart p {
+  background-color: #000;
+  color: #fff;
+  width: 130px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 15px;
+  display: none;
+  position: absolute;
+  bottom: 18px;
+  right: 0px;
+}
+main section #clock #photo_hover_heart:hover {
+  color: #ff4136;
+  transition: 0.5s ease-in-out;
+}
+main section #clock #photo_hover_heart:hover p {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-image: url(https://cdn.shopify.com/s/files/1/2300/9895/files/1.jpg?v=1504075577);
+  padding: 45px 0;
+}
+footer .footer_text p {
+  margin-top: 25px;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+  font-size: 14px;
+}
+footer #form h2 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+footer #form form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding: 24px 0;
+}
+footer #form form #email {
+  width: 90%;
+  height: 40px;
+  padding: 5px 15px;
+  font-family: "Poppins", sans-serif;
+}
+footer #form form i {
+  font-size: 24px;
+  border: 1px solid;
+  width: 70px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+footer #form form i:hover {
+  background-color: #ff4136;
+  color: rgb(109, 107, 107);
+  transition: 0.5s ease-in-out;
+}
+footer #contact h1 {
+  margin-left: 24px;
+  font-size: 24px;
+}
+footer #contact p {
+  padding: 8px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+footer #follow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  gap: 15px;
+}
+footer #follow div {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+footer #follow div i {
+  font-size: 14px;
+}
+footer #follow div:hover {
+  background-color: #ff4136;
+}
+footer #follow div:hover i {
+  color: #fff;
+}
+footer #end {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+}
+footer #end div p {
+  padding: 25px;
+}
+footer #end .link {
+  width: 20%;
+  height: 50px;
+  padding: 15px 25px;
+}
+footer #end .link a {
+  color: #000;
+  gap: 25px;
+}
+footer #end .link:hover a {
+  color: #ff4136;
+}
+@media screen and (max-widht: 400px) {
+  footer #end .link {
+    display: none;
+  }
+}
+@media screen and (max-widht: 400px) {
+  footer #end {
+    display: none;
+  }
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+*, *::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}/*# sourceMappingURL=style.css.map */
